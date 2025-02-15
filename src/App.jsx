@@ -1,9 +1,24 @@
 import React from "react";
+import "./App.css";
+
+import Waves from './assets/Scripts/Wave';
 
 const App = () => {
   return (
-    <div className="bg-red-900 text-white min-h-screen flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold mb-4 text-red-500">Hello, Tailwind with React! 👋</h1>
+    <div>
+      <Waves
+        lineColor="#6400c2"
+        backgroundColor="rgba(0, 0, 0, 0)"
+        waveSpeedX={0.01}
+        waveSpeedY={0.02}
+        waveAmpX={40}
+        waveAmpY={20}
+        friction={0.9}
+        tension={0.01}
+        maxCursorMove={120}
+        xGap={10}
+        yGap={36}
+      />
     </div>
   );
 };
