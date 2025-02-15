@@ -8,7 +8,7 @@ export default function Home() {
       {/* Left Side Text */}
       <div className="md:flex-1 text-center md:text-left px-4">
         <h1 className="text-4xl md:text-6xl font-bold">
-          Hey, I'm <span className="text-blue-500">S SIDHARTH</span>
+          Hey, I'm <span className="text-violet-500">S SIDHARTH</span>
         </h1>
         <br />
         <h1 className="text-xl md:text-2xl font-bold mt-4">
@@ -23,7 +23,7 @@ export default function Home() {
             wrapper="span"
             speed={50}
             repeat={Infinity}
-            className="text-blue-500"
+            className="text-violet-500"
           />
         </h1>
       </div>

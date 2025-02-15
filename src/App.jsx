@@ -30,8 +30,8 @@ const App = () => {
         <Waves
           lineColor="#2e0059"
           backgroundColor="rgba(0, 0, 0, 0)"
-          waveSpeedX={0.01}
-          waveSpeedY={0.02}
+          waveSpeedX={0.03}
+          waveSpeedY={0.03}
           waveAmpX={40}
           waveAmpY={20}
           friction={0.9}
