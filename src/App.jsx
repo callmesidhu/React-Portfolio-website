@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
+import Particles from "./assets/Scripts/Particle";
 
 import Waves from './assets/Scripts/Wave';
 
 const App = () => {
   return (
     <div>
-      <Waves
-        lineColor="#6400c2"
+       <Waves
+        lineColor="#2e0059"
         backgroundColor="rgba(0, 0, 0, 0)"
         waveSpeedX={0.01}
         waveSpeedY={0.02}
@@ -18,7 +19,20 @@ const App = () => {
         maxCursorMove={120}
         xGap={10}
         yGap={36}
+      /> 
+
+     <div  className="w-full h-screen relative">
+     <Particles
+        particleColors={['#ffffff', '#ffffff']}
+        particleCount={200}
+        particleSpread={10}
+        speed={0.2}
+        particleBaseSize={100}
+        moveParticlesOnHover={true}
+        alphaParticles={false}
+        disableRotation={true}
       />
+     </div>
     </div>
   );
 };
