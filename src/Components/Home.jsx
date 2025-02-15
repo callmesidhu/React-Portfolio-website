@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import "./Components.css";
+
 
 export default function Home() {
   return (
