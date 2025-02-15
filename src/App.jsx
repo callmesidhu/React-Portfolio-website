@@ -3,12 +3,13 @@ import Particles from "./assets/Scripts/Particle";
 import Waves from './assets/Scripts/Wave';
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
+import Contact from "./Components/Contact";
 
 const App = () => {
   return (
     <div className="relative">
       {/* Particles on Top */}
-      <div className="fixed inset-0 z-50">
+      <div className="fixed z-50 h-screen w-full pointer-events-none">
         <Particles
           particleColors={['#ffffff', '#ffffff']}
           particleCount={200}
@@ -24,6 +25,7 @@ const App = () => {
       {/* Navbar and Content */}
       <Navbar />
       <Home />
+      <Contact />
 
       {/* Waves in Background */}
       <div className="fixed inset-0 -z-10">
