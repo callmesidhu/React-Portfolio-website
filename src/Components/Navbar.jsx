@@ -36,7 +36,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu (slides in from the left) */}
       <div
         className={`bg-opacity-50 backdrop-blur-lg fixed inset-y-0 left-0 w-64 transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
@@ -61,7 +60,12 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-        <div className="flex flex-col space-y-8 p-4 justify-center items-center">
+       <div>
+        <div className="mt-8">
+                <img src="https://media.licdn.com/dms/image/v2/D5603AQGvtK7KbQT2FA/profile-displayphoto-shrink_400_400/B56ZTbChtLGQAg-/0/1738841663960?e=1744848000&v=beta&t=39q_MXqt7IwMyAGNRJZF62zzQMXP2jXyiCNMHRHc0eg" alt="profile" className="w-48 mb-2 h-auto rounded-full mx-auto" />
+                <h1 className="text-white text-3xl font-bold text-center">S SIDHARTH</h1>
+        </div>
+       <div className="flex flex-col space-y-6 p-4 mt-8 justify-center items-center">
           <a
             href="#home"
             onClick={toggleMenu}
@@ -105,6 +109,7 @@ const Navbar = () => {
             Contact
           </a>
         </div>
+       </div>
       </div>
     </nav>
   );
