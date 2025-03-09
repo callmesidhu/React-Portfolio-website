@@ -1,5 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import myImage from '../assets/images/my.png';
 
 
 export default function Home() {
@@ -33,7 +34,7 @@ export default function Home() {
         <div className="relative">
           {/* Image */}
           <img
-            src="src/assets/images/my.png" // Ensure this path is correct
+            src={myImage} // Ensure this path is correct
             alt="me"
             className="w-full max-w-xs sm:max-w-md md:max-w-lg mx-auto rounded-lg shadow-lg relative z-10"
           />
