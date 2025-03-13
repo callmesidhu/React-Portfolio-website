@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Contact from "./Components/Contact";
 import Skills from "./Components/Skills";
+import About from "./Components/About";
 
 const App = () => {
   const [disableParticles, setDisableParticles] = useState(false);
@@ -41,6 +42,7 @@ const App = () => {
       {/* Navbar and Content */}
       <Navbar />
       <Home />
+      <About />
       <Skills />
       <Contact />
 
