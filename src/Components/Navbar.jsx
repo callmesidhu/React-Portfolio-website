@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* Toggle Button (visible on small screens) */}
         <button onClick={toggleMenu} className="mx-2 text-white focus:outline-none">
           <svg
-            className="w-8 h-8 cursor-grab mx-8"
+            className="right-1 top-5 absolute w-8 h-8 cursor-grab mx-8"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
