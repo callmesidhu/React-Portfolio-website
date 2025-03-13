@@ -1,9 +1,18 @@
 import React from 'react';
 
+const aboutContent = `I’m S Sidharth (CallMeSidhu), a passionate full-stack developer with expertise in React, Next.js, Vue.js, Flask, Node.js, Django, Figma, MongoDB, PostgreSQL, etc. 
+I specialize in building modern, scalable web and mobile applications, constantly exploring new technologies to enhance performance and user experience.
+<br><br/> Currently, I’m diving deep into Data Structures and Algorithms (DSA), Machine Learning technologies, and Data Analysis, aiming to expand my knowledge in artificial intelligence and predictive analytics. My goal is to bridge the gap between software engineering and intelligent systems, leveraging data to drive innovation. 
+I love tackling complex tech challenges and turning ideas into reality. <br><br/>
+I am currently pursuing Engineering at College of Engineering Trivandrum (CET) and have completed my Higher Secondary Education in Computer Science from Gov. HSS Punalur in 2022.
+`;
+
+const aboutMore = `loading...`;
+
 export default function About() {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-black text-white p-6 sm:p-12 lg:p-28">
-      <div className="bg-black rounded-lg w-[70rem] min-h-[30rem] h-auto shadow-lg border border-violet-900 bg-gray-900">
+    <div id='about' className="flex justify-center items-center min-h-screen bg-black text-white p-6 sm:p-12 lg:p-28">
+      <div className="bg-black rounded-lg w-[60rem] min-h-[30rem] h-auto shadow-lg border border-violet-900 bg-gray-900">
         <div className="flex justify-between items-center h-10 px-4 border-b border-gray-600">
           <div className="flex space-x-2">
             <span className="w-3.5 h-3.5 rounded-full bg-red-500 border border-red-700"></span>
@@ -43,10 +52,22 @@ export default function About() {
             <span className="text-red-400">master</span>
             <span className="text-blue-400">)</span>
             <span className="ml-2">callmesidhu -la</span>
+          </div>
+          <div className='px-6'>
+          <p dangerouslySetInnerHTML={{ __html: aboutContent }} />
+          </div>
+          <div className="flex items-center mt-2 space-x-2">
+            <span className="w-2 h-2 bg-green-500 clip-path-triangle"></span>
+            <span className="text-cyan-400">XyphX-OS</span>
+            <span className="text-blue-400">git:</span>
+            <span className="text-blue-400">(</span>
+            <span className="text-red-400">master</span>
+            <span className="text-blue-400">)</span>
+            <span className="ml-2">callmesidhu -la --all</span>
             <span className="w-1 h-4 bg-purple-500 animate-pulse"></span>
           </div>
-          <div>
-                
+          <div className='px-6'>
+          <p dangerouslySetInnerHTML={{ __html: aboutMore }} />
           </div>
         </div>
       </div>
