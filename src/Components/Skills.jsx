@@ -43,10 +43,22 @@ const skills = [
       { "name": "Linux", "src": "https://profilinator.rishav.dev/skills-assets/linux-original.svg", "link": "https://www.linux.org/" },
       { "name": "Arduino", "src": "https://profilinator.rishav.dev/skills-assets/arduino.png", "link": "https://www.arduino.cc/" },
       { "name": "Figma", "src": "https://profilinator.rishav.dev/skills-assets/figma-icon.svg", "link": "https://www.figma.com/" },
-      { "name": "Raspberry Pi", "src": "https://firebasestorage.googleapis.com/v0/b/reactnative-mobile-chat-app.appspot.com/o/Github%20icons%2Fresberry.png?alt=media&token=e2f65801-209f-4e7a-8287-e087ff628199", "link": "https://www.raspberrypi.org/" },
-      { "name": "Power BI", "src": "https://firebasestorage.googleapis.com/v0/b/reactnative-mobile-chat-app.appspot.com/o/Github%20icons%2Fpowerbi.png?alt=media&token=935e59d6-3913-4f9a-b688-5cea1342a923", "link": "https://powerbi.microsoft.com/en-us/" },
-      { "name": "Android", "src": "https://profilinator.rishav.dev/skills-assets/android-original-wordmark.svg", "link": "https://www.android.com/intl/en_in/" },
-      
+      { "name": "Power BI", "src": "https://firebasestorage.googleapis.com/v0/b/reactnative-mobile-chat-app.appspot.com/o/Github%20icons%2Fpowerbi.png?alt=media&token=935e59d6-3913-4f9a-b688-5cea1342a923", "link": "https://powerbi.microsoft.com/en-us/" },    
+      {
+        "name": "NumPy",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg",
+        "link": "https://numpy.org/"
+      },
+      {
+        "name": "Pandas",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg",
+        "link": "https://pandas.pydata.org/"
+      },
+      {
+        "name": "Seaborn",
+        "src": "https://seaborn.pydata.org/_static/logo-wide-lightbg.svg",
+        "link": "https://seaborn.pydata.org/"
+      }  
     ]
   },
 ];

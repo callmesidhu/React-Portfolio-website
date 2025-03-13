@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import Contact from "./Components/Contact";
 import Skills from "./Components/Skills";
 import About from "./Components/About";
+import Projects from "./Components/Projects";
 
 const App = () => {
   const [disableParticles, setDisableParticles] = useState(false);
@@ -44,6 +45,7 @@ const App = () => {
       <Home />
       <About />
       <Skills />
+      <Projects />
       <Contact />
 
       {/* Waves in Background */}
