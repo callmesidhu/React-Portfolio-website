@@ -1,0 +1,26 @@
+[
+        {
+          "id": 1,
+          "title": "Coming Soon 1",
+          "tech": "Tech Stack",
+          "description": "Description of project",
+          "link": "https://callmesidhu.com/project1",
+          "image": "https://dummyimage.com/600x400/000/fff"
+        },
+        {
+                "id": 1,
+                "title": "Coming Soon 2",
+                "tech": "Tech Stack",
+                "description": "Description of project",
+                "link": "https://callmesidhu.com/project1",
+                "image": "https://dummyimage.com/600x400/000/fff"
+              },{
+                "id": 1,
+                "title": "Coming Soon 3",
+                "tech": "Tech Stack",
+                "description": "Description of project",
+                "link": "https://callmesidhu.com/project1",
+                "image": "https://dummyimage.com/600x400/000/fff"
+              }
+      ]
+      

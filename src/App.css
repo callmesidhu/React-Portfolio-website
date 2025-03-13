@@ -15,7 +15,6 @@
       
       .project-content {
         flex-grow: 1; /* Pushes button to bottom */
-        padding: 0 16px;
         color: white;
       }
       
