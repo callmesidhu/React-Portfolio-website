@@ -4,6 +4,7 @@ import Waves from "./assets/Scripts/Wave";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Contact from "./Components/Contact";
+import Skills from "./Components/Skills";
 
 const App = () => {
   const [disableParticles, setDisableParticles] = useState(false);
@@ -40,6 +41,7 @@ const App = () => {
       {/* Navbar and Content */}
       <Navbar />
       <Home />
+      <Skills />
       <Contact />
 
       {/* Waves in Background */}
