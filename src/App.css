@@ -1,18 +1,41 @@
-.mySwiper {
-        width: 320px;
-        height: 400px;
+.project-card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
         border-radius: 15px;
-        overflow: hidden;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
       }
       
-      .swiper-slide {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-        color: #fff;
-        background-color: #4f006c;
-        border-radius: 15px;
+      .project-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+      
+      .project-content {
+        flex-grow: 1; /* Pushes button to bottom */
+        padding: 0 16px;
+        color: white;
+      }
+      
+      .project-button {
+        margin-top: auto; /* Ensures button stays at bottom */
+        text-align: center;
+      }
+      
+      .project-button a {
+        display: block;
+        width: 100%;
+        height: 60px;
+        padding: 12px;
+        background-color: #3f0467; /* Violet */
+        color: white;
+        text-decoration: none;
+        transition: background 0.3s ease-in-out;
+      }
+      
+      .project-button a:hover {
+        background-color: #1e0033; /* Lighter violet on hover */
       }
       
