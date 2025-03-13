@@ -22,7 +22,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center py-12 lg:min-h-screen">
+    <div id='projects' className="flex flex-col items-center py-12 lg:min-h-screen">
       <h2 className="text-center text-4xl m-4 font-black text-white">Projects</h2>
       <Swiper
         effect={'cards'}

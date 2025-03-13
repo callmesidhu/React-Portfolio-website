@@ -1,10 +1,30 @@
-body{
+body {
         background-color: black;
         color: white;
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 0;
-}
-html {
+    }
+    
+    html {
         scroll-behavior: smooth;
-      }
+    }
+    
+    /* Scrollbar Styles for Webkit Browsers (Chrome, Edge, Safari) */
+    ::-webkit-scrollbar {
+        width: 8px; /* Thin scrollbar */
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: rgb(18, 18, 18); /* Black background */
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: rgb(57, 0, 123); /* Violet scrollbar */
+        border-radius: 10px; /* Rounded edges */
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: #6e15c7; /* Darker violet on hover */
+    }
+    
