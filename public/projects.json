@@ -6,6 +6,21 @@
           "description": "Comming Soon",
           "link": "https://callmesidhu.com/project1",
           "image": "https://dummyimage.com/600x400/000/fff"
+        },
+         {
+          "id": 2,
+          "title": "30+ Projects",
+          "tech": "Tech Stack",
+          "description": "Comming Soon",
+          "link": "https://callmesidhu.com/project1",
+          "image": "https://dummyimage.com/600x400/000/fff"
+        }, {
+          "id": 3,
+          "title": "30+ Projects",
+          "tech": "Tech Stack",
+          "description": "Comming Soon",
+          "link": "https://callmesidhu.com/project1",
+          "image": "https://dummyimage.com/600x400/000/fff"
         }
 ]
       
