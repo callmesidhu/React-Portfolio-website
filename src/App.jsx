@@ -8,6 +8,7 @@ import Skills from "./Components/Skills";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Loader from "./Components/Loader"; // Import Loader component
+import Experience from "./Components/Experience";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -58,6 +59,7 @@ const App = () => {
       <Home />
       <About />
       <Skills />
+      <Experience />
       <Projects />
       <Contact />
 
