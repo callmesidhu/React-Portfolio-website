@@ -5,7 +5,7 @@ import myImage from '../assets/images/my.png';
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center p-8 overflow-hidden">
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center p-8 overflow-hidden" id="home">
 
       {/* Left Side Text with animation */}
       <motion.div

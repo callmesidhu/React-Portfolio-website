@@ -65,7 +65,7 @@ const Navbar = () => {
 
         {/* Menu Links */}
         <div className="flex flex-col space-y-6 p-4 mt-8 justify-center items-center">
-          {["Home", "About", "Skills", "Experiences", "Projects", "Contact"].map((item) => (
+          {["Home", "About", "Skills", "Experience", "Projects", "Contact"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
