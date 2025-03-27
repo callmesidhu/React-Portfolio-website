@@ -1,8 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaInstagram, FaGithub, FaWhatsapp } from 'react-icons/fa';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact() {
+  const [formData, setFormData] = useState({ name: '', email: '', phone: '', suggestion: '' });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!formData.name || !formData.email || !formData.phone || !formData.suggestion) {
+      toast.error("All fields are required!", { position: "top-right", theme: "dark", style: { backgroundColor: "#7C3AED", color: "#fff" } });
+      return;
+    }
+    toast.success("Submitted successfully!", { position: "top-right", theme: "dark", style: { backgroundColor: "#7C3AED", color: "#fff" } });
+    setFormData({ name: '', email: '', phone: '', suggestion: '' });
+  };
+
   return (
     <div className="min-h-screen bg-black flex items-center justify-center p-6 text-white" id="contact">
       <motion.div 
@@ -19,12 +37,16 @@ export default function Contact() {
         >
           <h1 className="text-3xl font-bold text-center mb-6">Contact Me</h1>
 
-          <form className="space-y-4">
+          <form className="space-y-4" onSubmit={handleSubmit}>
             <div>
               <label className="block text-sm font-medium">Name</label>
               <input
                 type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
                 placeholder="Enter your name"
+                required
                 className="w-full px-4 py-2 mt-1 border rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-violet-500"
               />
             </div>
@@ -33,7 +55,11 @@ export default function Contact() {
               <label className="block text-sm font-medium">Email</label>
               <input
                 type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
                 placeholder="Enter your email"
+                required
                 className="w-full px-4 py-2 mt-1 border rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-violet-500"
               />
             </div>
@@ -42,7 +68,11 @@ export default function Contact() {
               <label className="block text-sm font-medium">Phone Number</label>
               <input
                 type="tel"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
                 placeholder="Enter your phone number"
+                required
                 className="w-full px-4 py-2 mt-1 border rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-violet-500"
               />
             </div>
@@ -50,13 +80,18 @@ export default function Contact() {
             <div>
               <label className="block text-sm font-medium">Suggestion</label>
               <textarea
+                name="suggestion"
+                value={formData.suggestion}
+                onChange={handleChange}
                 placeholder="Your suggestions..."
                 rows="4"
+                required
                 className="w-full px-4 py-2 mt-1 border rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-violet-500"
               ></textarea>
             </div>
 
             <motion.button
+              onClick={handleSubmit}
               type="submit"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -71,7 +106,7 @@ export default function Contact() {
         <motion.div 
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.8 }}
           className="lg:w-1/2 lg:flex lg:flex-col lg:items-center lg:justify-center"
         >
           <h2 className="text-xl font-semibold mb-4 text-right">Connect with Me</h2>
@@ -94,19 +129,11 @@ export default function Contact() {
               <FaWhatsapp size={24} />
             </a>
           </motion.div>
-
-          {/* Contact Information */}
-          <motion.div 
-            className="mt-8 text-left text-gray-400"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.8, duration: 0.8 }}
-          >
-            <p>Email: <a href="mailto:callmesidhu@myyahoo.com" className="text-violet-400 hover:underline">callmesidhu@myyahoo.com</a></p>
-            <p>Phone: <a href="tel:9496225620" className="text-violet-400 hover:underline">949-622-5620</a></p>
-          </motion.div>
         </motion.div>
       </motion.div>
+
+      {/* Toast Notification Container */}
+      <ToastContainer />
     </div>
   );
 }
