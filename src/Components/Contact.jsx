@@ -1,14 +1,24 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { FaLinkedin, FaInstagram, FaGithub, FaWhatsapp } from 'react-icons/fa';
 
 export default function Contact() {
   return (
     <div className="min-h-screen bg-black flex items-center justify-center p-6 text-white" id="contact">
-      <div className="bg-gray-900 p-8 rounded-lg shadow-lg w-full max-w-md lg:max-w-4xl lg:flex lg:justify-between">
-        <div className="lg:w-1/2">
+      <motion.div 
+        initial={{ opacity: 0, y: 50 }} 
+        animate={{ opacity: 1, y: 0 }} 
+        transition={{ duration: 0.8 }}
+        className="bg-gray-900 p-8 rounded-lg shadow-lg w-full max-w-md lg:max-w-4xl lg:flex lg:justify-between"
+      >
+        <motion.div 
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="lg:w-1/2"
+        >
           <h1 className="text-3xl font-bold text-center mb-6">Contact Me</h1>
 
-          {/* Contact Form */}
           <form className="space-y-4">
             <div>
               <label className="block text-sm font-medium">Name</label>
@@ -37,7 +47,7 @@ export default function Contact() {
               />
             </div>
 
-            <div className='z-20'>
+            <div>
               <label className="block text-sm font-medium">Suggestion</label>
               <textarea
                 placeholder="Your suggestions..."
@@ -46,19 +56,31 @@ export default function Contact() {
               ></textarea>
             </div>
 
-            <button
+            <motion.button
               type="submit"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
               className="w-full bg-violet-600 text-white py-2 px-4 rounded-lg hover:bg-violet-700 transition duration-300"
             >
               Submit
-            </button>
+            </motion.button>
           </form>
-        </div>
+        </motion.div>
 
         {/* Social Media Links */}
-        <div className="lg:w-1/2 lg:flex lg:flex-col lg:items-center lg:justify-center">
+        <motion.div 
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          className="lg:w-1/2 lg:flex lg:flex-col lg:items-center lg:justify-center"
+        >
           <h2 className="text-xl font-semibold mb-4 text-right">Connect with Me</h2>
-          <div className="flex justify-center lg:justify-end space-x-6">
+          <motion.div 
+            className="flex justify-center lg:justify-end space-x-6"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 0.8 }}
+          >
             <a href="https://www.linkedin.com/in/callmesidhu" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600 transition duration-300">
               <FaLinkedin size={24} />
             </a>
@@ -71,15 +93,20 @@ export default function Contact() {
             <a href="https://wa.me/9496225620" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-600 transition duration-300">
               <FaWhatsapp size={24} />
             </a>
-          </div>
+          </motion.div>
 
           {/* Contact Information */}
-          <div className="mt-8 text-left text-gray-400">
+          <motion.div 
+            className="mt-8 text-left text-gray-400"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.8, duration: 0.8 }}
+          >
             <p>Email: <a href="mailto:callmesidhu@myyahoo.com" className="text-violet-400 hover:underline">callmesidhu@myyahoo.com</a></p>
             <p>Phone: <a href="tel:9496225620" className="text-violet-400 hover:underline">949-622-5620</a></p>
-          </div>
-        </div>
-      </div>
+          </motion.div>
+        </motion.div>
+      </motion.div>
     </div>
   );
 }
