@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-6 flex justify-between items-center">
         {/* Logo with White Border */}
         <a href='https://callmesidhu.vercel.app/' className="text-white cursor-pointer">
-        <div className="text-white text-2xl font-bold bg-black border-white border border-1 p-2 px-8 rounded-3xl">
+        <div className="text-white text-2xl font-bold hover:bg-violet-900 border-white border transform hover:scale-105 p-2 px-8 rounded-3xl transition-all duration-500">
           Call Me Sidhu
         </div>
         </a>

@@ -100,9 +100,9 @@ const Skills = () => {
     <motion.div
       id="skills"
       ref={skillsRef}
-      className="flex flex-col items-center space-y-8 my-12 md:mx-28 mx-auto"
+      className="flex flex-col items-center space-y-8 my-12 md:mx-28 mx-auto overflow-x-hidden"
       initial={{ opacity: 0, y: 0 }}
-      animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 250 }}
+      animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 100 }}
       transition={{ duration: 1 }}
     >
       <h2 className="text-4xl font-bold text-center">Skills & Technologies</h2>

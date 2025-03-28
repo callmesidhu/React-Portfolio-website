@@ -34,7 +34,7 @@ export default function Projects() {
         {projects.slice().reverse().map((project) => (
           <SwiperSlide key={project.id} className="bg-gray-900 project-card">
             {/* Project Image */}
-            <img src={project.image} alt={project.title} className="project-image p-3 rounded-lg" />
+            {project.image ? (<img src={project.image} alt={project.title} className="project-image p-3 rounded-lg" />):(<button className='flex-1 bg-black m-3 text-center text-4xl justify-center rounded-lg items-center cursor-pointer'><a href={project.visit || project.link}>Visit Here</a></button>)  }
 
             {/* Content Section */}
             <div className="project-content p-6">

@@ -24,9 +24,9 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-black flex items-center justify-center p-6 text-white" id="contact">
       <motion.div 
-        initial={{ opacity: 0, y: 50 }} 
+        initial={{ opacity: 0, y: 100 }} 
         animate={{ opacity: 1, y: 0 }} 
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 1 }}
         className="bg-gray-900 p-8 rounded-lg shadow-lg w-full max-w-md lg:max-w-4xl lg:flex lg:justify-between"
       >
         <motion.div 
