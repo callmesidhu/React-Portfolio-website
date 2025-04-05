@@ -59,7 +59,7 @@ export default function Experience() {
       <div
         ref={experienceRef}
         id="experience"
-        className="flex flex-col items-center min-h-screen bg-black text-white px-4 py-12"
+        className="flex flex-col items-center min-h-screen bg-black text-white px-4 py-12 overflow-x-hidden"
       >
         <h2 className="text-4xl font-bold text-center ">
           Current Positions

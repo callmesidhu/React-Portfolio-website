@@ -8,14 +8,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="p-4 fixed w-full z-50">
+    <nav className="p-4 fixed w-full z-50 top-0">
       {/* Desktop Navbar */}
       <div className="container mx-6 flex justify-between items-center">
         {/* Logo with White Border */}
         <a href='https://callmesidhu.vercel.app/' className="text-white cursor-pointer">
-        <div className="text-white text-2xl font-bold hover:bg-violet-900 border-white border transform hover:scale-105 p-2 px-8 rounded-3xl transition-all duration-500">
-          Call Me Sidhu
+        <div className="text-white text-2xl font-bold hover:bg-violet-900 backdrop-blur-sm bg-white/10 border-white border transform hover:scale-105 p-2 px-8 rounded-3xl transition-all duration-500">
+          <p>
+            Call Me Sidhu
+          </p>
         </div>
+
         </a>
 
         {/* Toggle Button (visible on small screens) */}
