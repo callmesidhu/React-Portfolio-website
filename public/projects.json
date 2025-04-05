@@ -198,6 +198,15 @@
           "link": "https://github.com/callmesidhu/Vuejs-Eskays-Science-Centre-website",
           "visit": "https://eskayssciencecentre.vercel.app/"
         }
+        ,
+        {
+          "id": 23,
+          "title": "Sargam CET Fest web team",
+          "tech": "React, Tailwindcss",
+          "description": "CET's annual cultural fest website",
+          "link": "https://github.com/callmesidhu/React-sargam25-website",
+          "visit": "https://github.com/callmesidhu/React-sargam25-website"
+        }
                           
         
 ]

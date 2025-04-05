@@ -1,101 +1,49 @@
-        [
-                {
-                        "title": "Backend Developer",
-                        "company": "IEEE Kerala Section",
-                        "type": "Internship",
-                        "duration": "Mar 2025 - Present · 1 mo",
-                        "location": "Kerala, India",
-                        "skills": ["Node.js"]
-                },
-                {
-                        "title": "Vue.js Developer",
-                        "company": "Eskay's Science Centre",
-                        "type": "Part-time",
-                        "duration": "Nov 2024 - Present · 5 mos",
-                        "location": "Punalur, Kerala, India",
-                        "description": "An entrance-based training centre from Punalur.",
-                        "skills": ["Vue.js", "TypeScript", "Figma", "Tailwind CSS"]
-                },
-                {
-                        "title": "Web Master",
-                        "company": "IEDC CET",
-                        "duration": "Jan 2025 - Present · 3 mos",
-                        "location": "Thiruvananthapuram, Kerala, India",
-                        "description": "IEDC CET Execome'25 Web Team Head"
-                },
-                {
-                        "title": "Web Team Head",
-                        "company": "AeroCET",
-                        "duration": "Jan 2025 - Present · 3 mos",
-                        "location": "Thiruvananthapuram, Kerala, India",
-                        "skills": ["Docker", "MERN Stack", "Web Development"]
-                },
-                {
-                        "title": "Web Developer",
-                        "company": "AeroCET",
-                        "duration": "Aug 2024 - Present · 8 mos",
-                        "location": "Trivandrum, Kerala, India",
-                        "skills": ["MERN Stack", "Web Development"]
-                },
-                {
-                        "title": "Technical Team Member",
-                        "company": "AeroCET",
-                        "duration": "Mar 2024 - Present · 1 yr 1 mo",
-                        "location": "Trivandrum, Kerala, India",
-                        "description": "AeroCET Web Developer and Technical Team member",
-                        "skills": ["Aerodynamics", "RC Plane Manufacturing"]
-                },
-                {
-                        "title": "Web Developer",
-                        "company": "T PRO BONO",
-                        "type": "Internship",
-                        "duration": "Oct 2024 - Present · 6 mos",
-                        "location": "Trivandrum, Kerala, India",
-                        "description": "TProBono is a startup from CET",
-                        "skills": ["Next.js", "Tailwind CSS", "Figma", "TypeScript"]
-                },
-                {
-                        "title": "Web Team",
-                        "company": "ASME CET",
-                        "duration": "Aug 2024 - Present · 8 mos",
-                        "location": "Trivandrum, Kerala, India",
-                        "description": "Web developer and UI designer at ASME",
-                        "skills": ["Next.js", "Tailwind CSS", "Firebase", "Figma", "TypeScript"]
-                },
-                {
-                        "title": "Web Team",
-                        "company": "AstroCET",
-                        "duration": "Feb 2025 - Present · 2 mos",
-                        "description": "Astronomy club of the CET"
-                },
-                {
-                        "title": "IEA-CET Web Team Head",
-                        "company": "College of Engineering, Trivandrum (CET)",
-                        "duration": "Dec 2023 - Present · 1 yr 4 mos",
-                        "location": "Trivandrum, Kerala, India",
-                        "description": "(Industrial Engineering Association) CET - Web Head",
-                        "skills": ["React.js", "HTML5", "Tailwind CSS", "CSS", "JavaScript"]
-                },
-                {
-                        "title": "NSS CET Energy Cell",
-                        "company": "National Service Scheme",
-                        "duration": "Oct 2024 - Present · 6 mos",
-                        "location": "Trivandrum, Kerala, India",
-                        "description": "NSS CET Energy Cell Subpanel member"
-                },
-                {
-                        "title": "Industrial Engineering Class Representative",
-                        "company": "College of Engineering Trivandrum",
-                        "duration": "Sep 2023 - Jan 2024 · 5 mos",
-                        "location": "Trivandrum, Kerala, India",
-                        "description": "B.Tech IE Semester 1 Class Representative of Industrial Engineering."
-                },
-                {
-                        "title": "Little Kites",
-                        "company": "KITE- Kerala Infrastructure and Technology for Education",
-                        "duration": "Jun 2018 - Jan 2020 · 1 yr 8 mos",
-                        "location": "Punalur, Kerala, India",
-                        "description": "Member of Little Kites unit of NSVHS Valacode",
-                        "skills": ["Python", "Scratch", "HTML5", "CSS", "Microsoft PowerPoint", "Microsoft Excel", "Microsoft Word"]
-                }
-        ]
+[
+        {
+          "title": "Backend Developer",
+          "company": "IEEE Kerala Section",
+          "type": "Internship",
+          "duration": "Mar 2025 - Present · 1 mo",
+          "location": "Kerala, India",
+          "skills": ["Node.js"]
+        },
+        {
+          "title": "Vue.js Developer",
+          "company": "Eskay's Science Centre",
+          "type": "Part-time",
+          "duration": "Nov 2024 - Present · 5 mos",
+          "location": "Punalur, Kerala, India",
+          "description": "An entrance-based training centre from Punalur.",
+          "skills": ["Vue.js", "TypeScript", "Figma", "Tailwind CSS"]
+        },
+        {
+          "title": "Web Master",
+          "company": "IEDC CET",
+          "duration": "Jan 2025 - Present · 3 mos",
+          "location": "Thiruvananthapuram, Kerala, India",
+          "description": "IEDC CET Execome'25 Web Team Head"
+        },
+        {
+          "title": "Web Team Head",
+          "company": "AeroCET",
+          "duration": "Jan 2025 - Present · 3 mos",
+          "location": "Thiruvananthapuram, Kerala, India",
+          "skills": ["Docker", "MERN Stack", "Web Development"]
+        },
+        {
+          "title": "Web Developer",
+          "company": "AeroCET",
+          "duration": "Aug 2024 - Present · 8 mos",
+          "location": "Trivandrum, Kerala, India",
+          "skills": ["MERN Stack", "Web Development"]
+        },
+        {
+          "title": "Web Master",
+          "company": "AeroCET",
+          "duration": "Mar 2024 - Present · 1 yr 1 mo",
+          "location": "Trivandrum, Kerala, India",
+          "description": "AeroCET Web Developer and Technical Team member",
+          "skills": ["Aerodynamics", "RC Plane Manufacturing"]
+        }
+      ]
+      
