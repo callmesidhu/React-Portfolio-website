@@ -1,49 +1,51 @@
 [
         {
-          "title": "Backend Developer",
+                "title": "Next.js Developer",
+                "company": "MyOtherApp",
+                "type": "Internship",
+                "duration": "Mar 2025 - Present",
+                "location": "Kerala, India",
+                "skills": ["Nextjs","APIs"]
+        },
+        {
+          "title": "Backend Developer Intern",
           "company": "IEEE Kerala Section",
           "type": "Internship",
-          "duration": "Mar 2025 - Present · 1 mo",
+          "duration": "Mar 2025 - Present",
           "location": "Kerala, India",
-          "skills": ["Node.js"]
+          "skills": ["Node.js","Jira"]
         },
         {
           "title": "Vue.js Developer",
           "company": "Eskay's Science Centre",
           "type": "Part-time",
-          "duration": "Nov 2024 - Present · 5 mos",
+          "duration": "Nov 2024 - Present",
           "location": "Punalur, Kerala, India",
           "description": "An entrance-based training centre from Punalur.",
           "skills": ["Vue.js", "TypeScript", "Figma", "Tailwind CSS"]
         },
         {
-          "title": "Web Master",
+          "title": "Web Team Lead",
           "company": "IEDC CET",
-          "duration": "Jan 2025 - Present · 3 mos",
+          "duration": "Jan 2025 - Present",
           "location": "Thiruvananthapuram, Kerala, India",
           "description": "IEDC CET Execome'25 Web Team Head"
         },
         {
-          "title": "Web Team Head",
-          "company": "AeroCET",
-          "duration": "Jan 2025 - Present · 3 mos",
+          "title": "Web Developer Intern",
+          "company": "TProBono",
+          "duration": "Oct 2024 - Present",
           "location": "Thiruvananthapuram, Kerala, India",
-          "skills": ["Docker", "MERN Stack", "Web Development"]
+          "description": "TProBono is a startup from CET",
+          "skills": ["Nextjs", "Tailwind CSS", "Figma"]
         },
         {
-          "title": "Web Developer",
+          "title": "Web Master + Technical Team Member",
           "company": "AeroCET",
-          "duration": "Aug 2024 - Present · 8 mos",
-          "location": "Trivandrum, Kerala, India",
-          "skills": ["MERN Stack", "Web Development"]
-        },
-        {
-          "title": "Web Master",
-          "company": "AeroCET",
-          "duration": "Mar 2024 - Present · 1 yr 1 mo",
+          "duration": "Mar 2024 - Present",
           "location": "Trivandrum, Kerala, India",
           "description": "AeroCET Web Developer and Technical Team member",
-          "skills": ["Aerodynamics", "RC Plane Manufacturing"]
+          "skills": ["MERN Stack", "Docker", "Figma"]
         }
       ]
       

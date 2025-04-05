@@ -24,7 +24,8 @@ export default function Projects() {
   return (
     <a href='https://github.com/callmesidhu?tab=repositories' target='_blank'>
     <div id='projects' className="flex flex-col items-center py-12 lg:min-h-screen">
-      <h2 className="text-center text-4xl m-4 font-black text-white">Projects (<u> More... </u>)</h2>
+      <h2 className="text-center text-4xl m-4 font-black text-white">Projects </h2>
+      <p className='mb-8'>⚠️35+ Projects (project section not updated) <u>click here</u></p>
       <Swiper
         effect={'cards'}
         grabCursor={true}

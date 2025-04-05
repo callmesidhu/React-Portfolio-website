@@ -61,9 +61,10 @@ export default function Experience() {
         id="experience"
         className="flex flex-col items-center min-h-screen bg-black text-white px-4 py-12"
       >
-        <h2 className="text-4xl font-bold text-center mb-12">
-          Experience (<u> More... </u>)
+        <h2 className="text-4xl font-bold text-center ">
+          Current Positions
         </h2>
+        <u className="mb-12"> Click here for previous experience</u>
 
         <div className="relative border-l-2 border-gray-700 pl-6 max-w-3xl">
           {experiences.map((exp, index) => (
