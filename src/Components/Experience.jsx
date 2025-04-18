@@ -22,7 +22,7 @@ export default function Experience() {
           setInView(true);
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.3 }
     );
 
     if (experienceRef.current) {
